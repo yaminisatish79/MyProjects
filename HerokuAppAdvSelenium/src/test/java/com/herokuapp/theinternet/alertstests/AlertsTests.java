@@ -14,7 +14,7 @@ public class AlertsTests extends TestUtilities {
 		SoftAssert softAssert = new SoftAssert();
 
 		// open main page
-		WelcomePage welcomePage = new WelcomePage(driver, log);
+		WelcomePage welcomePage = new WelcomePage(driver,  log);
 		welcomePage.openPage();
 
 		// Click on JavaScript Alerts link
